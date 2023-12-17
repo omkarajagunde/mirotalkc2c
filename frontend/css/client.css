@@ -24,7 +24,7 @@
 }
 
 * {
-    font-family: inherit;
+    font-family: "Montserrat", sans-serif;
     outline: none;
 }
 
@@ -617,7 +617,13 @@ z-index:
     display: none !important;
 }
 #homeBtn{
-    display: none !important
+    display: none !important;
+}
+#screenShareBtn{
+    display: none !important;
+}
+#settingsBtn{
+    display: none !important;
 }
 
 
@@ -631,5 +637,9 @@ z-index:
         position: unset !important;
         width: 50vw;
         height: 100%;
+    }
+
+    .remoteVideoWrap {
+        width: 50vw;
     }
 }
