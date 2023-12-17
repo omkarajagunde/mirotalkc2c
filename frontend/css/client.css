@@ -166,7 +166,6 @@ body {
     width: var(--my-video-wrap-width);
     height: var(--my-video-wrap-height);
     border: var(--border);
-    border-radius: var(--border-radius);
     overflow: hidden;
 }
 
@@ -637,6 +636,7 @@ z-index:
         position: unset !important;
         width: 50vw;
         height: 100%;
+        border-radius: var(--border-radius);
     }
 
     .remoteVideoWrap {
